@@ -27,15 +27,15 @@ h1 {
 .login {
   border-radius: 20px;
   width: 100%;
-  padding: 10%;
-  margin: 4%;
+  padding: 15%;
+  margin: 7%;
   box-shadow: 1px 1px 13px 13px rgb(0, 0, 0);
 }
 input {
   width: 100%;
   border-radius: 10px;
-  padding: 7%;
-  margin: 2%;
+  padding: 10%;
+  margin: 4%;
 }
 div {
   align-items: center;
