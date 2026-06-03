@@ -14,7 +14,7 @@ body {
   color: #ffffff;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   display: flex;
   min-height: 100vh;
   padding: 35px;
@@ -53,7 +53,7 @@ button {
   width: 200px;
   padding: 15px;
   font-size: 16px;
- background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJXobOd2d6f1V_CHjv-N3mD_y_gP2gw9Fo7Q&s);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJXobOd2d6f1V_CHjv-N3mD_y_gP2gw9Fo7Q&s);
   border: 1px solid #8b5e3c;
   border-radius: 5px;
   font-weight: 900;
