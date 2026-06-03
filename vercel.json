@@ -3,6 +3,10 @@
     {
       "source": "/",
       "destination": "/login/index.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/login/:path*"
     }
   ]
 }
