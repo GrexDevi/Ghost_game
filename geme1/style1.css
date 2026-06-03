@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Monda:wght@400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Almarai", sans-seri;
+}
+
+body {
+  background-image: url(../img/1780502122892.png);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+header {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  background-image: url(../img/1780502122892.png);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: white;
+  text-shadow: 0 0 15px rgb(0, 0, 0);
+  margin: 0;
+  padding: 15px;
+}
+
+.card {
+  background-image: url(../img/1780502122892.png);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 24px;
+  padding: 25px 20px;
+  margin: 15px auto;
+  width: 320px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  transition: 0.3s ease;
+}
+h3 {
+  height: 4px;
+  width: 180px;
+ color: white;
+  border-radius: 4px;
+  margin: 5px auto 15px auto;
+  box-shadow: 0 0 12px rgba(108, 126, 255, 0.8);
+}
+
+.card:hover {
+  border-color: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.85);
+}
+
+img {
+  border-radius: 50%;
+  padding: 4px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 3px solid #000000;
+  background: #000000;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #e0e4ff;
+  font-size: 1.6rem;
+  margin: 10px 0 5px;
+  letter-spacing: 0.5px;
+}
+
+p {
+  color: #c0c5f0;
+  font-size: 0.85rem;
+  margin: 8px 0 20px;
+  padding: 0 10px;
+  line-height: 1.5;
+}
+.card button i {
+  font-size: 20px;
+}
+
+button {
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(4px);
+  color: white;
+  border: 1px solid #6c7eff;
+  padding: 10px 20px;
+  margin: 6px 8px;
+  width: 240px;
+  border-radius: 40px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-image: url(../img/1780502122892.png);
+  transform: translateY(-2px);
+  border-color: #000000;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
