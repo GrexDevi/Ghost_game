@@ -5,8 +5,8 @@
       "destination": "/login/index.html"
     },
     {
-      "source": "/:path*",
-      "destination": "/login/:path*"
+      "source": "/(.*\\..*)",
+      "destination": "/login/$1"
     }
   ]
 }
