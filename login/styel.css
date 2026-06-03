@@ -7,7 +7,8 @@
 }
 
 body {
-  background-image: url(https://files.catbox.moe/gpij9v.jpg);
+  /* background-image: url(https://files.catbox.moe/gpij9v.jpg); */
+  background-image: url(../img/1780502122892.png);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,16 +25,16 @@ h1 {
   margin-bottom: 10%;
 }
 .login {
-  border-radius: 40px;
+  border-radius: 20px;
   width: 100%;
-  padding: 8%;
+  padding: 10%;
   margin: 4%;
   box-shadow: 1px 1px 13px 13px rgb(0, 0, 0);
 }
 input {
   width: 100%;
   border-radius: 10px;
-  padding: 4%;
+  padding: 7%;
   margin: 2%;
 }
 div {
@@ -43,9 +44,9 @@ div {
   justify-content: center;
 }
 h3 {
-  margin: 5%;
+  margin: 9%;
   box-shadow: 1px 1px 13px 13px rgb(0, 0, 0);
-  padding: 4%;
+  padding: 6%;
 }
 
 button {
@@ -53,4 +54,5 @@ button {
   background: none;
   color: #fff;
   box-shadow: 1px 1px 13px 13px   rgb(0, 0, 0);
+  border-radius: 6%;
 }
